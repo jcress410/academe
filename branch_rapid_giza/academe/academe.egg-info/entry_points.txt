@@ -1,0 +1,6 @@
+      [console_scripts]
+      academe=academe.main:main
+      [paste.app_factory]
+      pyramid-app=academe:make_pyramid_app
+      app=academe:make_app
+      

@@ -1,0 +1,4 @@
+def my_view(request):
+    return {'project':'academe',
+            'logo': '/images/me_jack.jpg',
+            'css_path': '/css/brownish.css'}

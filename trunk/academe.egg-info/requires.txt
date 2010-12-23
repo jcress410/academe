@@ -1,0 +1,5 @@
+pyramid
+repoze.zodbconn
+repoze.tm
+ZODB3
+WebError

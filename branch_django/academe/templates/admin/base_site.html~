@@ -1,0 +1,10 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ title }} | {% trans 'academe site admin' %}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">{% trans u'\03b1''cademe' %}</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

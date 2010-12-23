@@ -1,0 +1,15 @@
+README.txt
+setup.cfg
+setup.py
+academe/__init__.py
+academe/models.py
+academe/tests.py
+academe/views.py
+academe.egg-info/PKG-INFO
+academe.egg-info/SOURCES.txt
+academe.egg-info/dependency_links.txt
+academe.egg-info/entry_points.txt
+academe.egg-info/not-zip-safe
+academe.egg-info/paster_plugins.txt
+academe.egg-info/requires.txt
+academe.egg-info/top_level.txt

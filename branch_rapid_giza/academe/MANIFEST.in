@@ -1,0 +1,1 @@
+recursive-include academe *.html *.css *.png *.ico *.gif *.jpg *.ini *.txt *.wsgi

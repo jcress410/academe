@@ -1,0 +1,27 @@
+<configure xmlns="http://pylonshq.com/pyramid">
+
+  <!-- this must be included for the view declarations to work -->
+  <include package="pyramid.includes" />
+
+  <view
+     context=".models.PageMaker"
+     view=".views.my_view"
+     renderer="templates/index.pt"
+     />
+
+  <static
+     name="static"
+     path="static"
+     />
+
+  <static
+     name="images"
+     path="static/images"
+     />
+
+  <static
+     name="css"
+     path="static/css"
+     />
+
+</configure>
